@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <svg width="600" height="200">
         <defs>
-          <path id="curve" d="M50 150 Q300 -50 550 150" />
+          <path id="curve" d="M50 150 Q300 -50 800 150" />
         </defs>
         <text width="600" fontSize="50" fill="white" fontFamily="'UnifrakturCook', cursive">
           <textPath href="#curve" startOffset="50%">
