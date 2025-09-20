@@ -1,0 +1,112 @@
+/* Fuente gótica */
+body {
+  font-family: 'UnifrakturCook', cursive;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background: linear-gradient(to right, black 50%, white 50%);
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+
+
+/* Menú */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background: #222;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Secciones */
+section {
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Booking form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+form button {
+  cursor: pointer;
+  background: black;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: gray;
+}
