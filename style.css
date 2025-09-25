@@ -12,10 +12,32 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 250px;
+  padding: 2rem 1rem;
   background: linear-gradient(to right, black 50%, white 50%);
-  color: white;
 }
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 28px;
+  margin-top: -30px; /* acerca al título */
+  line-height: 1.8; /* aumenta espacio entre líneas */
+}
+
+.subtitle .white {
+   background: linear-gradient(to right, white 50%, black 50%);
+   letter-spacing: 15px; 
+   
+}
+
+.subtitle .black {
+   background: linear-gradient(to right, white 50%, black 50%);
+  letter-spacing: 10px;
+
+}
+  
 
 .title {
   font-size: 3rem;
@@ -30,16 +52,10 @@ body {
   color: black;
 }
 
-.subtitle {
-  font-size: 1.2rem;
-  margin-top: 10px;
-  background: linear-gradient(to right, black 50%, white 50%);
-}
-
 
 /* Menú */
 nav ul {
-  display: flex;
+   display: flex;
   justify-content: center;
   list-style: none;
   margin: 0;
